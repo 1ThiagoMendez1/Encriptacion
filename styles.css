@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  background-color: #222222;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+  padding-bottom: 90px;
+  font-family: comic sans ms;
+  font-size: 50px;
+  font-weight: bolder;
+  color: greenyellow;
+}
+
+main{
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.form{
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  background-color: rgb(53, 53, 53);
+  padding: 40px;
+  border-radius: 30px;
+}
+
+#formulario{
+  background-color: rgba(0, 0, 0, 0);
+}
+
+  #inp-txt{
+    width: 80%;
+    height: 50px;
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+  }
+
+
+  ::placeholder {
+    color: green;
+    background-color: rgba(165, 42, 42, 0);
+  }
+
+  .btns{
+    background-color: rgba(139, 69, 19, 0);
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  button{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 8px;
+    width: 150px;
+    border-radius: 20px;
+    border: none;
+    background-color: greenyellow;
+    color: black;
+  }
+
+  .resutl{
+    background-color: rgba(255, 255, 255, 0.193);
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 150px 1px black;
+  }
+
+  .resutl .text-input{
+    width: 80%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: green;
+  }
+
+  h3{
+    margin-top: 20px;
+    color: green;
+    background-color: #00000013;
+  }

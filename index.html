@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Encriptacion</title>
+
+</head>
+<body>
+  <h1 class="titulo">Encriptación</h1>
+
+  <main class="main">
+    <section class="form">
+
+      <form id="formulario">
+        <input type="text" name="inp-txt" id="inp-txt" placeholder="Ingrese el texto aqui" autocomplete="off">
+
+          <div class="resutl">
+            <input class="text-input" type="text" id="input-message" placeholder="Esperando..." autocomplete="off" disabled>
+            <button class="btn" id="copyBtn" onclick="copyText()">copiar</button>
+          </div>
+
+        <h3>! Digita solo lertas minúsculas y sin acento.</h3>
+        
+        
+        <div class="btns">
+          <button class="btn" id="encriptar">Encriptar</button>
+          <button class="btn" id="desencriptar" >Desencriptar</button>
+        </div>
+        
+      
+      </form>
+
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  </body>
+</html> 
